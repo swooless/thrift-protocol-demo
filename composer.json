@@ -1,0 +1,24 @@
+{
+  "name": "swooless/thrift-protocol-demo",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Alan.Fu",
+      "email": "ssisoo@live.cn"
+    }
+  ],
+  "require": {
+    "apache/thrift": "^0.12.0"
+  },
+  "autoload": {
+    "psr-4": {
+        "Swooless\\Protocol\\Demo\\" : "gen-php/Swooless/Protocol/Demo/"
+    }
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.laravel-china.org"
+    }
+  }
+}
